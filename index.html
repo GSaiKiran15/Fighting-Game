@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tekken 1</title>
+</head>
+
+<body>
+    <!-- <div class="p1p">
+        <p id="p1">Goku</p>
+        <img src="/assets/images/goku.gif" alt="PLayer 1" id="p11">
+    </div>
+    <div class="p2p">
+        <p id="p2">Naruto</p>
+        <img src="/assets/images/naruto.gif" alt="Player 2" id="p22">
+    </div> -->
+    <h1>Tekken 1</h1>
+    <div id="player_names">
+        <p id="p1">Goku</p>
+        <p id="p2">Naruto</p>
+    </div>
+    <div id="player_images">
+        <img src="/assets/images/goku.gif" alt="PLayer 1" id="p11">
+        <img src="/assets/images/naruto.gif" alt="Player 2" id="p22">
+    </div>
+    <div id="butt"><button id="simulate">Simulate</button></div>
+    <div id="p1_attack">
+        <p class="one">D : To Attack</p>
+        <p class="two">4 : To Attack</p>
+    </div>
+    <div id="p2_attack">
+        <p class="one">S : To Heal</p>
+        <p class="two">5 : To Heal</p>
+    </div>
+    <div id="scores">
+        <p id="p1_">Goku's Health ❤️ - 100</p>
+        <p id="p2_">Naruto's Health ❤️ - 100</p>
+    </div>
+    <h2 id="winner"></h2>
+    <div id="restart_button"><button id="restart" onclick="restart()">Restart</button></div>
+
+
+    <script src="index.js"></script>
+</body>
+<audio src="/assets/sounds/punch1.wav" id="g_punch"></audio>
+<audio src="/assets/sounds/naruto.wav" id="n_punch"></audio>
+<audio src="/assets/sounds/victory.mp3" id="victory"></audio>
+
+</html>
